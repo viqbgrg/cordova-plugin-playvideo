@@ -7,7 +7,7 @@
 //
 
 #import "PlayVideo.h"
-#define HttpUrl @"http://boyueimages.shhwec.com/"
+#define HttpUrl @"http://img.xunpet.cn/petShopImgs/"
 @implementation PlayVideo
 - (void)playVideoMethod:(CDVInvokedUrlCommand *)command {
      NSString *url = [NSString stringWithFormat:@"%@%@",HttpUrl,[command.arguments lastObject]];
